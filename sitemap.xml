@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO vor Launch: DEINE-DOMAIN.de ueberall durch die echte Domain ersetzen
+     und die Sitemap in robots.txt einkommentieren. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://DEINE-DOMAIN.de/</loc>
+    <lastmod>2026-07-02</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://DEINE-DOMAIN.de/spiele/ich-hab-noch-nie.html</loc>
+    <lastmod>2026-07-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://DEINE-DOMAIN.de/spiele/wer-wuerde-eher.html</loc>
+    <lastmod>2026-07-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://DEINE-DOMAIN.de/spiele/pass-the-phone.html</loc>
+    <lastmod>2026-07-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://DEINE-DOMAIN.de/spiele/double-or-nothing.html</loc>
+    <lastmod>2026-07-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://DEINE-DOMAIN.de/spiele/wahr-oder-falsch.html</loc>
+    <lastmod>2026-07-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://DEINE-DOMAIN.de/spiele/bluff.html</loc>
+    <lastmod>2026-07-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://DEINE-DOMAIN.de/spiele/geheimmissionen.html</loc>
+    <lastmod>2026-07-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>

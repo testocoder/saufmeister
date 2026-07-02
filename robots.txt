@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO vor Launch: Domain eintragen und die naechste Zeile einkommentieren:
+# Sitemap: https://DEINE-DOMAIN.de/sitemap.xml

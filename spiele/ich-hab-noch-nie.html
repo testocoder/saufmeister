@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; object-src 'none'; frame-ancestors 'none'">
+  <title>Ich hab noch nie – Trinkspiel online spielen | Prost!</title>
+  <meta name="description" content="Ich hab noch nie online spielen: über 60 freche Aussagen für die Partyrunde. Wer es schon gemacht hat, trinkt. Kostenlos im Browser, ein Handy reicht.">
+  <meta name="theme-color" content="#161210">
+  <meta property="og:title" content="Ich hab noch nie – Trinkspiel | Prost!">
+  <meta property="og:description" content="Der Klassiker unter den Trinkspielen: Wer die Aussage schon erlebt hat, trinkt einen Schluck.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="Prost!">
+  <!-- TODO vor Launch: Domain eintragen und die naechsten Zeilen einkommentieren.
+       canonical und og:url je Seite anpassen (z. B. /spiele/bluff.html).
+  <link rel="canonical" href="https://DEINE-DOMAIN.de/">
+  <meta property="og:url" content="https://DEINE-DOMAIN.de/">
+  <meta property="og:image" content="https://DEINE-DOMAIN.de/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Prost! - Sieben Trinkspiele fuer euren Partyabend">
+  <meta name="twitter:card" content="summary_large_image">
+  -->
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script src="../assets/js/app.js" defer></script>
+  <script src="../assets/js/data/ich-hab-noch-nie.js" defer></script>
+  <script src="../assets/js/games/simple-card.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Game","name":"Ich hab noch nie","description":"Der Trinkspiel-Klassiker: Eine Aussage wird vorgelesen – wer sie schon erlebt hat, trinkt einen Schluck. Über 3.700 Aussagen in 20 wählbaren Kategorien.","inLanguage":"de","isAccessibleForFree":true,"gamePlatform":"Webbrowser","numberOfPlayers":{"@type":"QuantitativeValue","minValue":2},"audience":{"@type":"PeopleAudience","suggestedMinAge":18},"isPartOf":{"@type":"WebSite","name":"Prost!"}}</script>
+</head>
+<body class="g-ihn">
+  <div class="app">
+
+    <header class="topbar">
+      <a class="topbar__back" href="../index.html" aria-label="Zurück zur Übersicht">←</a>
+      <h1 class="topbar__title">Ich hab noch nie</h1>
+      <button class="topbar__info" type="button" data-open-rules aria-label="Regeln anzeigen">?</button>
+    </header>
+
+    <main class="stage" id="game"></main>
+
+
+    <noscript>
+      <p class="noscript-warning">Für dieses Spiel muss JavaScript aktiviert sein.</p>
+    </noscript>
+
+    <dialog class="rules" id="rules">
+      <div class="rules__inner">
+        <h2>So wird gespielt</h2>
+        <ol>
+          <li>Das Handy liegt sichtbar in der Mitte oder geht reihum.</li>
+          <li>Auf der Karte steht eine Aussage wie <strong>„Ich hab noch nie im Kino geschlafen.“</strong></li>
+          <li><strong>Wer es doch schon gemacht hat, trinkt einen Schluck.</strong></li>
+          <li>Tipp auf die Karte – die nächste Aussage erscheint.</li>
+        </ol>
+        <p>Ehrlichkeit ist Ehrensache. Nachfragen und Geschichten dazu sind ausdrücklich erwünscht.</p>
+        <button class="rules__close" type="button" data-close-rules>Alles klar</button>
+      </div>
+    </dialog>
+
+    <footer class="legal-footer">
+      <a href="../index.html">Alle Spiele</a> · <a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a>
+    </footer>
+
+  </div>
+</body>
+</html>

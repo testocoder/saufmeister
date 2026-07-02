@@ -1,0 +1,17 @@
+# Security-Header fuer Netlify / Cloudflare Pages
+# (wird von anderen Hostern ignoriert, stoert dort nicht)
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Content-Security-Policy: frame-ancestors 'none'
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Strict-Transport-Security: max-age=31536000
+
+# Statische Assets cachen (CSS/JS 1 Tag, Bilder 30 Tage)
+/assets/css/*
+  Cache-Control: public, max-age=86400
+/assets/js/*
+  Cache-Control: public, max-age=86400
+/assets/img/*
+  Cache-Control: public, max-age=2592000
