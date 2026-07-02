@@ -9,7 +9,7 @@
   if (!data || !Array.isArray(data.categories)) return;
 
   const stage = App.$("#game");
-  const state = App.catState("prost-cats-" + data.id, data.categories);
+  const state = App.catState("sm-cats-" + data.id, data.categories);
 
   /* --- Screen 1: Kategorien wählen -------------------------------------- */
   function showCategories() {

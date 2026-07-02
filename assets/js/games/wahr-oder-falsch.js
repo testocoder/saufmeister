@@ -7,12 +7,12 @@
   const data = window.WOF_DATA;
   if (!data || !Array.isArray(data.categories)) return;
 
-  const STORAGE_KEY = "prost-wof-players";
+  const STORAGE_KEY = "sm-wof-players";
   const MAX_PLAYERS = 12;
   const MAX_NAME_LEN = 20;
 
   const stage = App.$("#game");
-  const catState = App.catState("prost-cats-wahr-oder-falsch", data.categories);
+  const catState = App.catState("sm-cats-wahr-oder-falsch", data.categories);
 
   let players = loadPlayers();
   let lastPerson = null;

@@ -1,4 +1,4 @@
-# Prost! – Trinkspiele-Webseite
+# Saufmeister – Trinkspiele-Webseite
 
 Mobile-first Webseite mit App-Feel: 7 Trinkspiele, komplett statisch (HTML/CSS/Vanilla-JS),
 ohne Framework, ohne Build-Step, ohne externe Abhängigkeiten oder Requests.
@@ -67,7 +67,8 @@ Spiel in `localStorage` gespeichert (`prost-cats-<spiel>`); Standard ist alles a
   3 Missionen gelten den ganzen Abend; wer alle geschafft hat, darf 3 neue ziehen.
   Trinkregel: die ausgetrickste Person trinkt; wer beim Auslösen erwischt wird,
   trinkt selbst und die Mission verfällt.
-- **Branding:** Arbeitsname „Prost!“, dunkles warmes Design, Akzentfarbe pro Spiel.
+- **Branding:** Name „Saufmeister“ (vom Nutzer festgelegt, Hero-Schriftzug
+  „Sauf“ weiß + „meister“ in Akzentfarbe), dunkles warmes Design, Akzentfarbe pro Spiel.
 
 ## Sicherheit
 

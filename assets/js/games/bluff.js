@@ -18,7 +18,7 @@
   const MAX_ANSWER_LEN = 60;
 
   const stage = App.$("#game");
-  const catState = App.catState("prost-cats-bluff", data.categories);
+  const catState = App.catState("sm-cats-bluff", data.categories);
 
   let questions = null; /* Zieh-Stapel, folgt der Kategorie-Auswahl */
   let bet = 3;

@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Prost! – Trinkspiele
+   Saufmeister – Trinkspiele
    Dunkles, warmes Design mit App-Feel. Keine externen Fonts/Ressourcen.
    ========================================================================== */
 
@@ -92,7 +92,7 @@ h1, h2, h3, p { margin: 0; }
 }
 
 .hero__brand {
-  font-size: clamp(2.4rem, 11vw, 3.4rem);
+  font-size: clamp(2rem, 8.5vw, 3.1rem);
   font-weight: 900;
   letter-spacing: -0.03em;
   line-height: 1;

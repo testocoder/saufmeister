@@ -12,7 +12,7 @@
   const MISSIONS_PER_PLAYER = 3;
 
   const stage = App.$("#game");
-  const state = App.catState("prost-cats-geheimmissionen", data.categories);
+  const state = App.catState("sm-cats-geheimmissionen", data.categories);
 
   let pool = null;        /* verhindert doppelte Missionen innerhalb der Runde */
   let reshufflesUsed = 0; /* pro Person, wird beim Weitergeben zurückgesetzt */
